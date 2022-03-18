@@ -18,4 +18,12 @@ public class ExportDemo1Test {
     public void testExport() {
         app.export();;
     }
+    @Test
+    public void testGetTemplate(){
+        app.getTemplate();
+    }
+    @Test
+    public void testExportByTemplate(){
+        app.exportByTemplate();
+    }
 }
